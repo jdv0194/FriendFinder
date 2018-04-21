@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Friend Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container survey-questions">
+    <h1>Friend Finder</h1>
+    <h2>Create Your Profile</h2>
+    <hr class="header-question-underline">
+
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="form-control" required>
+
+    <h4>Link to Photo (Required)</h4>
+    <input type="text" id="photo" class="form-control" required>
+    <hr class="survey-hr">
+
+    <h2>1</h2>
+    <hr class="question-underline">
+    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+    <select class="chosen-select" id="q1">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>2</h2>
+    <hr class="question-underline">
+    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+    <select class="chosen-select" id="q2">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>3</h2>
+    <hr class="question-underline">
+    <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+    <select class="chosen-select" id="q3">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>4</h2>
+    <hr class="question-underline">
+    <h4>You rarely do something just out of sheer curiosity.</h4>
+    <select class="chosen-select" id="q4">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>5</h2>
+    <hr class="question-underline">
+    <h4>People can rarely upset you.</h4>
+    <select class="chosen-select" id="q5">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>6</h2>
+    <hr class="question-underline">
+    <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+    <select class="chosen-select" id="q6">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>7</h2>
+    <hr class="question-underline">
+    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+    <select class="chosen-select" id="q7">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>8</h2>
+    <hr class="question-underline">
+    <h4>You rarely get carried away by fantasies and ideas.</h4>
+    <select class="chosen-select" id="q8">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>9</h2>
+    <hr class="question-underline">
+    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+    <select class="chosen-select" id="q9">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <hr class="survey-hr-small">
+
+    <h2>10</h2>
+    <hr class="question-underline">
+    <h4>You feel more energetic after spending time with a group of people.</h4>
+    <select class="chosen-select" id="q10">
+      <option value="" hidden>Select an Option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit-btn">
+      <i class="fa fa-check-circle"></i>
+      Submit</button>
+    <hr class="survey-hr">
+
+    <div>
+      <div class="container">
+        <p>
+          <a href="/api/friends">API Friends List</a> | |
+          <a href="https://github.com/jdv0194/FriendFinder">GitHub Repo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"></button>
+          <h2 class="modal-title">Reach out and make a new friend!</h2>
+        </div>
+
+        <div class="modal-body">
+          <h2 id="match-name">John Doe</h2>
+          <img id="match-photo" src="https://images.megapixl.com/4707/47075253.jpg" alt="">
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    // get survey answers
+    $('#submit-btn').on('click', function (event) {
+      event.preventDefault();
+      // make sure survey is completely filled out
+      function surveyCompletion() {
+        var completedSurvey = true;
+        $('.form-control').each(function () {
+          if ($(this).val() === '') { completedSurvey = false };
+        });
+        $('.chosen-select').each(function () {
+          if ($(this).val() === '') { completedSurvey = false };
+        });
+        return completedSurvey;
+      }
+      // if survey is filed out post data to api
+      if (surveyCompletion()) {
+        var surveyData = {
+          name: $('#name').val(),
+          photo: $('#photo').val(),
+          answers: [
+            $('#q1').val(),
+            $('#q2').val(),
+            $('#q3').val(),
+            $('#q4').val(),
+            $('#q5').val(),
+            $('#q6').val(),
+            $('#q7').val(),
+            $('#q8').val(),
+            $('#q9').val(),
+            $('#q10').val()
+          ]
+        };
+        // send back best match and show
+        $.post('/api/friends', surveyData, function (data) {
+          $('#match-name').text(data.name);
+          $('#match-photo').attr('src', data.photo);
+          $('#results-modal').modal('toggle');
+        });
+      } else {
+        alert('Fill out all required fields and answer all questions to submit.');
+      }
+    })
+  </script>
+
+</body>
+
+</html>

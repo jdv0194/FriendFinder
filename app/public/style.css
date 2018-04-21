@@ -1,0 +1,184 @@
+body {
+  background: black;
+}
+
+a,
+a:hover {
+  color: blue;
+  text-align: center;
+}
+
+.jumbotron {
+  background: crimson;
+  color: white;
+  text-align: center;
+}
+
+.btn-primary h3 {
+  margin-top: 10px;
+}
+
+.bottom-links {
+  color: crimson;
+}
+
+.survey-questions h1,
+.survey-questions h2,
+.survey-questions h4 {
+  text-align: center;
+}
+
+.btn-primary {
+  color: white;
+  background: transparent;
+  border: 3px solid white;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: crimson;
+  border: 3px solid black;
+  transition: all 0.8s;
+  color: black;
+  outline: none;
+}
+
+.form-control {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+}
+
+.form-control:focus {
+  border: 1px solid #ccc;
+  box-shadow: none;
+}
+
+.survey-questions {
+  color: crimson;
+}
+
+.survey-questions h1 {
+  margin: 90px auto 110px;
+  display: block;
+  font-size: 4em;
+  border-bottom: 3px solid;
+  padding-bottom: 10px;
+  width: 31%;
+}
+
+.survey-questions h2 {
+  margin-top: 40px;
+  color: white;
+}
+
+.question-underline,
+.header-question-underline {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.question-underline {
+  width: 4%;
+  height: 3px;
+  margin-top: 10px;
+}
+
+.header-question-underline {
+  height: 4px;
+  width: 14%;
+}
+
+.survey-questions h4 {
+  padding: 35px 0;
+  color: crimson;
+  font-size: 1.5em;
+}
+
+.survey-hr,
+.survey-hr-small {
+  border-top: 1px solid crimson;
+  border-bottom: 1px solid crimson;
+}
+
+.survey-hr {
+  height: 8px;
+}
+
+.survey-hr-small {
+  width: 50%;
+  margin-top: 55px;
+  height: 4px;
+}
+
+#q10 {
+  margin-bottom: 35px;
+}
+
+#match-photo {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#match-name {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#photo {
+  margin-bottom: 90px;
+}
+
+.btn-block {
+  background: crimson;
+  border-radius: 50px;
+  width: 40%;
+  color: white;
+  border: 2px solid crimson;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.75em;
+  opacity: 1;
+  margin: 100px auto;
+}
+
+.btn-block:hover {
+  background: transparent;
+  color: white;
+  transition: 0.8s all;
+  border: 2px solid white;
+  opacity: 1;
+}
+
+input {
+  color: crimson;
+}
+
+select {
+  background: white;
+  color: black;
+  border: 2px solid white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align-last: center;
+  height: 36px;
+  width: 175px;
+  font-size: 1.2em;
+  display: block;
+  margin: 0 auto;
+}
+
+select:hover,
+select:visited {
+  cursor: pointer;
+}
+
+select:focus {
+  border: 2px solid white;
+  outline: none;
+  box-shadow: none;
+}
